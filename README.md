@@ -1,4 +1,4 @@
-# Soft Skills Tracking for STEM Graduate Students (Education Cloud Concept)
+# Soft Skills Tracking for STEM Graduate Students (Salesforce Education Cloud)
 
 The rising prominence of artificial intelligence and its ability to handle technical tasks have made soft skills an increasingly important commodity for those entering into the job market. The importance of soft skills in the contemporary job market is recognized by many; however, many college students don’t know how to develop these crucial soft skills.
 
