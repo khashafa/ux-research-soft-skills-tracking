@@ -20,7 +20,7 @@ To address this problem, our work centers on strategies that could live inside *
 
 As soft skills are becoming increasingly important for entry-level workers and due to the current limitations in the existing ways to measure soft skills, career advisors need a method to identify, quantify, and track the growth of a student’s soft skills.
 
-### Research question (HMW)
+### Research question
 
 **How might we develop strategies that enable career services at universities to identify, quantify and track the growth and development of STEM graduate students’ soft skills?**
 
@@ -45,7 +45,7 @@ Outside the interviews, we broadened our understanding with additional sources, 
 - Reviewing **academic and industry literature** on employers’ gaps and expectations
 - **Text analysis of LinkedIn postings**
 - A **survey** examining students’ soft skill development and the resources that support it
-- Review of **current approaches to measuring soft skills**
+- Holding a **Focus group** to observe how stakeholders interact with each other’s ideas.
 
 ---
 
