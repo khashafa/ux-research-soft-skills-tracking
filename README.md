@@ -1,12 +1,14 @@
 # Soft Skills Tracking for STEM Graduate Students (Education Cloud Concept)
 
-This project explores **why university career services struggle to measure and support students’ soft-skill growth**—and proposes a practical strategy for doing it *inside* **Salesforce Education Cloud**, where advising and student records already live.
+The rising prominence of artificial intelligence and its ability to handle technical tasks have made soft skills an increasingly important commodity for those entering into the job market. The importance of soft skills in the contemporary job market is recognized by many; however, many college students don’t know how to develop these crucial soft skills.
 
-Built as a research + strategy deliverable in partnership context with Salesforce’s original “job-to-skill alignment” challenge.  [oai_citation:0‡Salesforce_Education_Cloud_Stakeholder_Presentation.pdf](sediment://file_000000002f38722faa2cc4f675733c16)
+When Salesforce posed its question, **“Identify the key barriers to university career services in tracking students’ soft skills and linking them to in-demand jobs,”** we focused specifically on the **tracking** problem: without credible ways to identify, quantify, and track soft skills over time, it is difficult for students (and career services) to understand growth or target improvement.
+
+To address this problem, our work centers on strategies that could live inside **Salesforce Education Cloud**—a place where advising and student records already exist—so that evidence collection and feedback can be integrated into workflows rather than added as a standalone system.
 
 ---
 
-## Deliverables 
+## Deliverables
 
 - **Final report (PDF):** [`report/Salesforce_Education_Cloud_Soft_Skills_Report.pdf`](report/Salesforce_Education_Cloud_Soft_Skills_Report.pdf)
 - **Stakeholder presentation (PDF):** [`presentation/Salesforce_Education_Cloud_Stakeholder_Presentation.pdf`](presentation/Salesforce_Education_Cloud_Stakeholder_Presentation.pdf)
@@ -14,58 +16,71 @@ Built as a research + strategy deliverable in partnership context with Salesforc
 
 ---
 
-## The problem we tackled
+## Problem statement
 
-Soft skills matter more as AI changes how entry-level work is evaluated, but **students often don’t know how to intentionally develop them** and career offices don’t have reliable, scalable ways to track growth.  [oai_citation:1‡Salesforce_Education_Cloud_Stakeholder_Presentation.pdf](sediment://file_000000002f38722faa2cc4f675733c16)  [oai_citation:2‡Salesforce_Education_Cloud_Soft_Skills_Report.pdf](sediment://file_000000008d84722f80109a9bb495e9f6)
-
-Salesforce’s original framing focused on the barriers career services face in **tracking soft skills and linking them to in-demand jobs**.  [oai_citation:3‡Salesforce_Education_Cloud_Stakeholder_Presentation.pdf](sediment://file_000000002f38722faa2cc4f675733c16)  
-We refined the scope to focus on **STEM graduate students**, since their career pathways and constraints differ from undergrads and across majors.  [oai_citation:4‡Salesforce_Education_Cloud_Soft_Skills_Report.pdf](sediment://file_000000008d84722f80109a9bb495e9f6)
+As soft skills are becoming increasingly important for entry-level workers and due to the current limitations in the existing ways to measure soft skills, career advisors need a method to identify, quantify, and track the growth of a student’s soft skills.
 
 ### Research question (HMW)
-**How might we develop strategies that enable career services at universities to identify, quantify, and track the growth and development of STEM graduate students’ soft skills?**  [oai_citation:5‡Salesforce_Education_Cloud_Soft_Skills_Report.pdf](sediment://file_000000002be071fda3975b45810260e5)
+
+**How might we develop strategies that enable career services at universities to identify, quantify and track the growth and development of STEM graduate students’ soft skills?**
+
+We focused on **STEM graduate students** to support more targeted and meaningful measurement strategies.
 
 ---
 
 ## What we did
 
 ### Primary research
-- **7 semi-structured interviews:** 4 STEM grad students, 2 career advisors (CDO), 1 hiring manager  [oai_citation:6‡Salesforce_Education_Cloud_Soft_Skills_Report.pdf](sediment://file_000000008d84722f80109a9bb495e9f6)
 
-### Secondary research + synthesis
-We complemented interviews with additional research and triangulation:
-- **Academic articles / industry reports** (employer expectations + gaps)
-- **Artifact analysis on social media content** (LinkedIn postings as “in the wild” soft-skill signals)
-- **Focus group** (how stakeholders interact with each other’s ideas)
-- **Survey** (individual + subgroup behavior)
-- **Affinity wall (Miro)** for synthesis across sources  [oai_citation:7‡Salesforce_Education_Cloud_Stakeholder_Presentation.pdf](sediment://file_0000000084e071f59afa81213240783f)
+- Conducted **seven semi-structured interviews** either in person or via Zoom: **four STEM graduate students**, **two Career Development Office (CDO) advisors**, and **one hiring manager**.
 
----
+### Synthesis
 
-## Key findings 
+- Structured and organized interview insights into an **affinity wall (Miro)**, clustering themes such as definitions of soft skills, reference materials, students’ time limitations, and the need for individualized, actionable feedback.
+- In situations where multiple interviews featured the same themes (or multiple stakeholder groups raised the same theme), we treated those themes as meaningful and used them to refine our design direction.
 
-1. **Soft skills are mostly learned “by living,” not by formal plans.**  
-   Many students develop them unintentionally through day-to-day situations rather than structured training.  [oai_citation:8‡Salesforce_Education_Cloud_Stakeholder_Presentation.pdf](sediment://file_0000000084e071f59afa81213240783f)
+### Additional data sources
 
-2. **Career services can’t easily track soft skills at scale—tooling and capacity are the bottleneck.**  
-   Advisors reported they haven’t used external tools for tracking soft-skill development and face organizational/technical constraints.  [oai_citation:9‡Salesforce_Education_Cloud_Stakeholder_Presentation.pdf](sediment://file_0000000084e071f59afa81213240783f)
-
-3. **Trust is the adoption problem: bias + validity concerns show up everywhere.**  
-   Both students and advisors explicitly raised concerns that soft-skill assessment is vulnerable to cultural, linguistic, and gender bias—and that “subjective” tools won’t be trusted or used.  [oai_citation:10‡Salesforce_Education_Cloud_Soft_Skills_Report.pdf](sediment://file_000000008d84722f80109a9bb495e9f6)
-
-4. **When students *do* want a tool, they want it to be: integrated, fast, and actionable.**  
-   Students favored tools embedded into existing classes/curriculum, and interviews suggested the realistic time budget is roughly **15–30 minutes** outside class.  [oai_citation:11‡Salesforce_Education_Cloud_Soft_Skills_Report.pdf](sediment://file_000000008d84722f80109a9bb495e9f6)
+Outside the interviews, we broadened our understanding with additional sources, including:
+- Reviewing **academic and industry literature** on employers’ gaps and expectations
+- **Text analysis of LinkedIn postings**
+- A **survey** examining students’ soft skill development and the resources that support it
+- Review of **current approaches to measuring soft skills**
 
 ---
 
-## Proposed solution
+## Key findings
 
-We recommend **integration over addition**: capture soft-skill evidence where development already happens (coursework, projects, internships), instead of pushing standalone extracurricular tools.  [oai_citation:12‡Salesforce_Education_Cloud_Soft_Skills_Report.pdf](sediment://file_000000002be071fda3975b45810260e5)
+1. **Unintentional soft skill development**
+   Students typically develop soft skills “unintentionally” through everyday interactions rather than through structured training. Multiple respondents emphasized that opportunities to exercise soft skills occur naturally through daily life and are acquired through experience rather than planned training programs.
 
-### Concept: case-based experiential learning inside Education Cloud
-An **experiential learning tool embedded in Salesforce Education Cloud** that:
-- gives students **real-world scenarios** to demonstrate soft skills,
-- provides **personalized, behavior-based feedback** (not just a score),
-- stores evaluations over time to support **growth tracking** and advising follow-through.  [oai_citation:13‡Salesforce_Education_Cloud_Soft_Skills_Report.pdf](sediment://file_0000000021b471f5ad16efee1d035788)
+2. **Limited engagement with university resources**
+   Students recognized that universities offer resources related to soft skill development, but few engaged with them. When describing why, students frequently noted a mismatch between resources and their needs—often describing workshops as “more presentation than practice,” and preferring smaller, more personalized sessions.
 
-This direction directly targets the constraints we heard most: engagement, trust, advisor workload, and feasibility within an existing platform.  [oai_citation:14‡Salesforce_Education_Cloud_Soft_Skills_Report.pdf](sediment://file_000000002be071fda3975b45810260e5)
+3. **No systematic tracking tools for advisors (plus real constraints)**
+   Interviews with career advisors revealed that universities currently lack any formal, systematic mechanism for tracking students’ soft skill development. Soft skill data collection remains informal, relying heavily on advisors’ impressions, coaching sessions, and private notes. Advisors also cited major organizational and technical constraints—limited time, competing priorities, and fragmented or outdated systems.
 
+4. **Adoption depends on trust, integration, and actionable output**
+   A major shared concern from both students and advisors was skepticism about the fairness and accuracy of soft skill assessment (bias and validity). At the same time, interviews highlighted clear opportunities: the tool should be efficient and **integrated into classrooms**, students reported a realistic time budget of **15–30 minutes** outside class, and results must be **specific, personalized, and actionable** (beyond a simple score).
+
+---
+
+## Recommendations (Education Cloud strategy)
+
+### 1) Integration over addition
+
+We recommend integrating the collection of soft skills evidence with academic and advising activities, rather than simply adding new activities. Evidence collection connected to required activities addresses development where it occurs while adding minimal effort or hassle. To be effective, embedded evidence collection should be tied to specific deliverables and framed as evidence of learning (not evaluative scoring).
+
+### 2) Growth-oriented feedback
+
+Offer growth-oriented feedback that is not tied to a numerical soft skill score. Students and advisors both showed considerable skepticism about numeric scoring, especially when criteria are unclear or suspected to be culturally biased. Feedback is more useful when it shows how someone is improving over time and connects clearly to visible behaviors.
+
+### 3) Credibility as a design constraint
+
+Credibility should be treated as an essential design constraint instead of something that emerges later. Students evaluated soft skill tools based on whether outcomes resulted in meaningful growth beyond the classroom, and symbolic badges or certificates were often seen as less valuable. Credibility can be strengthened by aligning evidence with credit-bearing coursework, required degree milestones, or employer-recognizable terminology.
+
+---
+
+## Concept direction
+
+Based on stakeholder needs and constraints, our solution direction is an **experiential learning tool embedded in Salesforce Education Cloud** that provides students with real-world scenarios to demonstrate soft skills and then delivers **personalized feedback** and **recommended next steps**. A record of evaluations can be retained over time to support **growth tracking** for both students and advisors.
